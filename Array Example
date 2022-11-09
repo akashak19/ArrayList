@@ -1,0 +1,22 @@
+package com.ArraylistExamples;
+
+import java.util.ArrayList;
+
+
+public class TestArraylist2 {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> al = new ArrayList<Integer>();
+
+		al.add(11);
+		al.add(22);
+		al.add(33);
+		al.add(0, 55);
+		al.add(4, 59);
+		
+		al.forEach(p-> System.out.println(p));
+
+	}
+
+}
