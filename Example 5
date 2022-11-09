@@ -1,0 +1,30 @@
+package com.ArraylistExamples;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+
+
+public class BookExamples {
+
+	public static void main(String[] args) {
+		ArrayList<Integer>al =new ArrayList<Integer>();
+		
+		
+		al.add(5);
+		al.add(9);
+		al.add(4);
+		al.add(6);
+		
+		System.out.println("Content of al" + al);
+		
+		Integer ia[]= new Integer[al.size()];
+		ia=al.toArray(ia);
+		int sum=0;
+		for (int i:ia)
+			sum+=i;
+		{
+			System.out.println("sum is "+ sum);
+		}
+		}
+		
+	}
